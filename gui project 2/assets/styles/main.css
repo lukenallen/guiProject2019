@@ -7,6 +7,9 @@
   color:white;
 }
 
+h3{
+  font-size:20px;
+}
 /* end reusable classes */
 
 .header{
@@ -65,7 +68,7 @@
 
 }
 .headerNavButtonsLoginButtonText{
-  margin-top:5px; /* set margin top to 5px */
+  margin-top:0px; /* set margin top to 5px */
 }
 
 .headerNavButtonsSignupButton{
@@ -82,7 +85,7 @@
 }
 
 .headerNavButtonsSignupButtonText{
-  margin-top:5px; /* set margin top to 5px */
+  margin-top:0px; /* set margin top to 5px */
 }
 
 .headerNavButtonsHelpButton{
@@ -99,5 +102,5 @@
 }
 
 .headerNavButtonsHelpButtonText{
-  margin-top:5px; /* set margin top to 5px */
+  margin-top:0px; /* set margin top to 5px */
 }
