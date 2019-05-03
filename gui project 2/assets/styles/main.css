@@ -1,0 +1,103 @@
+/* resuable classes */
+.boldText{
+ font-weight: 800;
+
+}
+.whiteText{
+  color:white;
+}
+
+/* end reusable classes */
+
+.header{
+  background-color: #1f2374; /* header background color */
+  width:100vw; /* header width set to 100% of the view width */
+  height:85px; /* header height */
+  position: fixed; /* set header position to fixed */
+  top: 0px; /* set position top to 0px */
+  left:0px; /* set position left ot 0px */
+}
+.headerLogo{
+  background-color: transparent; /* header logo div background color */
+  width:250px; /* header logo div width set to 250px */
+  height:77px; /* header logo div height */
+  position: fixed; /* set header logo div position to fixed */
+  margin-left: 85px; /* set left margin to 86px*/
+  margin-top: 10px; /* set margin top to 4px */
+}
+.headerLogoImageDiv{
+  background-color: transparent; /* header logo image div background color */
+  width:85px; /* header logo image div width set to 85px */
+  height:77px; /* header logo image div height */
+  position: fixed; /* set header logo image div position to fixed */
+  margin-left: 0px; /* set left margin to 0px*/
+
+}
+.headerLogoTextDiv{
+  background-color: transparent; /* header logo text div background color */
+  width:165px; /* header logo text div width set to 165px */
+  height:77px; /* header logo text div height */
+  position: fixed; /* set header logo text div position to fixed */
+  margin-left: 80px; /* set left margin to 85px*/
+
+}
+.headerNavButtonsOuterDiv{
+  background-color: transparent; /* header nav buttons outer div background color */
+  width:350px; /* header nav buttons outer div width set to 350px */
+  height:77px; /* header nav buttons outer div height */
+  position: fixed; /* set header nav buttons outer div position to fixed */
+  right: 85px; /* set right position to 85px*/
+  margin-top: 4px; /* set margin top to 4px */
+
+}
+.headerNavButtonsLoginButton{
+  background-color: transparent; /* set header nav buttons login button background color */
+  width:115px; /* set header nav buttons login button width set to 115px */
+  height:30px; /* set header nav buttons login button height */
+  position: fixed; /* set header nav buttons login button position to fixed */
+  right: 85px; /* set right position to 85px*/
+  margin-top: 22.5px; /* set margin top to 0px */
+  border-style: solid; /* make a solid border */
+  border-width: 2px; /* set borders width to 2px */
+  border-color: #ffffff; /* set border color to white */
+  border-radius:3px; /* set borders radius to 3px to make it look cleaner */
+
+
+}
+.headerNavButtonsLoginButtonText{
+  margin-top:5px; /* set margin top to 5px */
+}
+
+.headerNavButtonsSignupButton{
+  background-color: #0f8fff ; /* set header nav buttons Signup button background color */
+  width:115px; /* set header nav buttons Signup button width set to 115px */
+  height:30px; /* set header nav buttons Signup button height */
+  position: fixed; /* set header nav buttons Signup button position to fixed */
+  right: 225px; /* set right position to 85px*/
+  margin-top: 22.5px; /* set margin top to 0px */
+  border-style: solid; /* create a solid border */
+  border-width: 2px; /* border 2px in width */
+  border-color: #0f8fff; /* color of border set to blue */
+  border-radius:3px; /* the borders radius set to 3px */
+}
+
+.headerNavButtonsSignupButtonText{
+  margin-top:5px; /* set margin top to 5px */
+}
+
+.headerNavButtonsHelpButton{
+  background-color: transparent ; /* set header nav buttons Signup button background color */
+  width:115px; /* set header nav buttons Signup button width set to 115px */
+  height:30px; /* set header nav buttons Signup button height */
+  position: fixed; /* set header nav buttons Signup button position to fixed */
+  right: 325px; /* set right position to 85px*/
+  margin-top: 22.5px; /* set margin top to 0px */
+  border-style: solid; /* create a solid border */
+  border-width: 2px; /* border 2px in width */
+  border-color: transparent; /* color of border set to blue */
+  border-radius:3px; /* the borders radius set to 3px */
+}
+
+.headerNavButtonsHelpButtonText{
+  margin-top:5px; /* set margin top to 5px */
+}
