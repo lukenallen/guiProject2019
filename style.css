@@ -1,0 +1,140 @@
+header {
+    width: 100vw; /* set header width to 100% of the viewport */
+    background-color: #1f2374; /* set headers background-color to blue */
+    height: 85px; /* set headers height to 100pixels */
+    position: fixed;
+}
+
+.headerLogoDiv {
+    width: 300px; /* header logo div width control */
+    height: 85px;
+    background-color: transparent; /* set background color of header logo div to transparent */
+    margin-left: 60px; /* set the left margin to 60px */
+}
+
+.headerLogoText {
+    color: white; /* set the headers logo text color to white */
+    margin-left: 110px;
+    margin-top: -55px;
+    font-family: Rubik 1.5rem; /* set the font family to rubik with 1.5rem */
+    font-size: 30px; /* set the font size to 30px */
+}
+
+.headerButtonsDiv {
+    width: 375px;
+    height: 100px;
+    position: fixed;
+    right: 70px;
+    top: 0px;
+}
+
+.headerLoginButton {
+    background-color: transparent;
+    border-style: solid; /* make a solid border */
+    border-width: 2px; /* set borders width to 2px */
+    border-color: #ffffff; /* set border color to white */
+    border-radius: 3px; /* set borders radius to 3px to make it look cleaner */
+    width: 125px;
+    height: 40px;
+    color: white;
+    position: fixed;
+    right: 70px;
+    top: 20px;
+}
+
+.headerSignupButton {
+    background-color: #0f8fff;
+    border-style: solid; /* make a solid border */
+    border-width: 2px; /* set borders width to 2px */
+    border-color: #0f8fff; /* set border color to white */
+    border-radius: 3px; /* set borders radius to 3px to make it look cleaner */
+    width: 125px;
+    height: 35px
+        px;
+    font-family: Rubik 1.5rem;
+    color: white;
+    position: fixed;
+    right: 210px;
+    top: 20px;
+}
+
+.headerHelpButton {
+    background-color: transparent;
+    border-style: solid; /* make a solid border */
+    border-width: 2px; /* set borders width to 2px */
+    border-color: transparent; /* set border color to white */
+    border-radius: 3px; /* set borders radius to 3px to make it look cleaner */
+    width: 125px;
+    height: 35px
+        px;
+    font-family: Rubik,sans-serif;
+    font-size: 1rem;
+    color: #ffffff;
+    position: fixed;
+    right: 310px;
+    top: 20px;
+}
+
+.homeContent {
+    height: 100vh;
+    width: 100vw;
+    padding-top: 50px;
+    background-image: url('assets/images/background.jpg');
+}
+
+.homeJumbotron {
+    height: 100vh;
+    margin-top: 50px;
+    background-color: transparent;
+}
+
+.whiteText {
+    color: white;
+}
+
+.contentBoxOneMainText {
+    font-family: Rubik, sans-serif;
+    font-size: 48px;
+}
+
+.footerLogo {
+    background-color: transparent;
+    height: 100px;
+    width: 125px;
+    padding-top: 10px;
+}
+
+.footerCopyright {
+    background-color: transparent;
+    width: 500px;
+    height: 100px;
+    color: white;
+}
+
+.contentBoxOneSecondaryText {
+    font-family: Rubik, sans-serif;
+    font-size: 24px;
+}
+
+.homeContentOneSignupButton {
+    background-color: #ff3366;
+    border-color: #ff3366;
+    font-family: Rubik;
+    width: 125px;
+    border-radius: px;
+}
+
+.footer {
+    background-color: #232323;
+    width: 100vw;
+    height: 100px;
+}
+
+.homeContentOneLoginButton {
+    background-color: transparent;
+    border-color: white;
+    font-family: Rubik;
+    width: 125px;
+    margin-left: 10px;
+    border-radius: 3px;
+}
