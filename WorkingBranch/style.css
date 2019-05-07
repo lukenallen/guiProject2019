@@ -1,0 +1,232 @@
+header {
+	width: 100vw;
+	/* set header width to 100% of the viewport */
+	background-color: #1f2374;
+	/* set headers background-color to blue */
+	height: 85px;
+	/* set headers height to 100pixels */
+	position: fixed;
+	/* set header position to fixed so it stays at top of page when scrolling */
+}
+
+.headerLogoDiv {
+	width: 300px;
+	/* header logo div width control */
+	height: 85px;
+	background-color: transparent;
+	/* set background color of header logo div to transparent */
+	margin-left: 60px;
+	/* set the left margin to 60px */
+}
+
+.headerLogoText {
+	color: white;
+	/* set the headers logo text color to white */
+	margin-left: 110px;
+	margin-top: -55px;
+	font-family: Rubik 1.5rem;
+	/* set the font family to rubik with 1.5rem */
+	font-size: 30px;
+	/* set the font size to 30px */
+}
+
+.headerButtonsDiv {
+	width: 375px;
+	/* set the width of the outer header buttons div to 375px */
+	height: 100px;
+	/* set its height to 100px */
+	position: fixed;
+	/* position fixed */
+	right: 70px;
+	/* put it on the right of the page 70px from the edge */
+	top: 0px;
+	/* top position 0px so it stays at top of page */
+}
+
+.headerLoginButton {
+	background-color: transparent;
+	/* transparent background , left in incase needed to edit*/
+	border-style: solid;
+	/* make a solid border */
+	border-width: 2px;
+	/* set borders width to 2px */
+	border-color: #ffffff;
+	/* set border color to white */
+	border-radius: 3px;
+	/* set borders radius to 3px to make it look cleaner */
+	width: 125px;
+	/* control login buttons width */
+	height: 40px;
+	/* control height of login button */
+	color: white;
+	/* control login buttons color */
+	position: fixed;
+	/* position fixed so it sticks to top */
+	right: 70px;
+	/* 70px from right edge */
+	top: 20px;
+	/* 20px from top edge */
+}
+
+.headerSignupButton {
+	background-color: #0f8fff;
+	/* control sign up button color */
+	border-style: solid;
+	/* make a solid border */
+	border-width: 2px;
+	/* set borders width to 2px */
+	border-color: #0f8fff;
+	/* set border color to white */
+	border-radius: 3px;
+	/* set borders radius to 3px to make it look cleaner */
+	width: 125px;
+	/* set width of element */
+	height: 40px/* set height of element */
+	;
+	font-family: Rubik 1.5rem;
+	/* control the font family of the buttons text */
+	color: white;
+	/* set the color of the buttons text to white */
+	position: fixed;
+	/* set a fixed position for the button */
+	right: 210px;
+	/* 210px from the right of edge */
+	top: 20px;
+	/* 20px from top of edge */
+}
+
+.headerHelpButton {
+	background-color: transparent;
+	/* background color transparent, kept in for editting purposes */
+	border-style: solid;
+	/* make a solid border */
+	border-width: 2px;
+	/* set borders width to 2px */
+	border-color: transparent;
+	/* set border color to white */
+	border-radius: 3px;
+	/* set borders radius to 3px to make it look cleaner */
+	width: 125px;
+	/* comtrol width */
+	height: 35px/* control height */
+	;
+	font-family: Rubik, sans-serif;
+	/* control font family of button text */
+	font-size: 1rem;
+	/* control font size */
+	color: #ffffff;
+	/* control button text color */
+	position: fixed;
+	/* set position to fixed */
+	right: 310px;
+	/* 310px from right edge */
+	top: 20px;
+	/* 20px from top edge */
+}
+
+.homeContent {
+	height: 100vh;
+	/* content wrapper height */
+	width: 100vw;
+	/* control width */
+	padding-top: 50px;
+	/* padding of 50px from top to push element down from header */
+	background-image: url('assets/images/background.jpg');
+	/* control bakcground image */
+}
+
+.homeJumbotron {
+	height: 100vh;
+	/* change bootstrap jumbotron height */
+	margin-top: 50px;
+	/* margin top 50px to push down from header */
+	background-color: transparent;
+	/* background transparent */
+}
+
+.whiteText {
+	color: white;
+	/* class to set text color to white whenever used */
+}
+
+.contentBoxOneMainText {
+	font-family: Rubik, sans-serif;
+	/* jumbotron font family */
+	font-size: 48px;
+	/* font size for main text on jumbotron */
+}
+
+.footerLogo {
+	background-color: transparent;
+	/* footer logo div to transparent */
+	height: 100px;
+	/* control footer logo div height */
+	width: 125px;
+	/* cotnrol width */
+	padding-top: 10px;
+	/* padding top 10px to push down from top */
+	margin-left: 40px;
+	/* margin left to push away from left edge */
+}
+
+.contentBoxOneSecondaryText {
+	font-family: Rubik, sans-serif;
+	/* secondary jumbotron text font family */
+	font-size: 24px;
+	/* control font size of element */
+}
+
+.homeContentOneSignupButton {
+	background-color: #ff3366;
+	/* control jumbotron signup button color */
+	border-color: #ff3366;
+	/* control its border color */
+	font-family: Rubik;
+	/* control its font family */
+	width: 125px;
+	/* width to 125px */
+	border-radius: 3px;
+	/* control border radius of button to round it slightly */
+}
+
+.footer {
+	background-color: #232323;
+	/* footer background color */
+	width: 100vw;
+	/* footer width dimensions */
+	height: 100px;
+	/* footer height dimensions */
+}
+
+.homeContentOneLoginButton {
+	background-color: transparent;
+	/* jumbotron login button background color */
+	border-color: white;
+	/* border color controls */
+	font-family: Rubik;
+	/* control font family */
+	width: 125px;
+	/* dimensions width */
+	margin-left: 10px;
+	/* push away from left margin by 10px */
+	border-radius: 3px;
+	/* border radius rounded by 3px */
+}
+
+.copyrightSection {
+	background-color: transparent;
+	/* copyright text section background color */
+	width: 350px;
+	/* width dimensions */
+	height: 85px;
+	/* height dimensions */
+	margin-left: 175px;
+	/* push away from left margin by 175px */
+	margin-top: -80px;
+	/* margin top -80px to push onto the footer */
+}
+
+.footerText {
+	font-size: 20px;
+	/* control the copyright section / footer text size */
+}
